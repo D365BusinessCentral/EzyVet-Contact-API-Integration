@@ -1,5 +1,6 @@
 codeunit 50011 "EzyVet Contact API Integration"
 {
+
     procedure CheckSetup(var lErrorMsgonSetups: Text)
     begin
         if not GuiAllowed then begin
